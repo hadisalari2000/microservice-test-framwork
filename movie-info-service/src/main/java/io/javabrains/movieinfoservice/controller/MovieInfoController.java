@@ -11,6 +11,6 @@ public class MovieInfoController {
 
     @RequestMapping("/{movieId}")
     public MovieInfo getMovieInfo(@PathVariable String movieId){
-        return MovieInfo.builder().id(movieId).name("hadi-films").build();
+        return MovieInfo.builder().id(movieId).name("hadi-films-"+movieId).build();
     }
 }
