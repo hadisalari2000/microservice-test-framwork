@@ -7,10 +7,10 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="microservice-test-framwork" />
-        <module name="movie-rating-service" />
         <module name="movie-catalog-service" />
-        <module name="discovery-server" />
         <module name="movie-info-service" />
+        <module name="discovery-server" />
+        <module name="movie-rating-service" />
       </profile>
     </annotationProcessing>
   </component>
