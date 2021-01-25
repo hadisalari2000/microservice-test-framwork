@@ -8,15 +8,15 @@
         <outputRelativeToContentRoot value="true" />
         <module name="microservice-test-framwork" />
         <module name="movie-rating-service" />
-        <module name="discovery-service" />
         <module name="movie-catalog-service" />
+        <module name="discovery-server" />
         <module name="movie-info-service" />
       </profile>
     </annotationProcessing>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="discovery-service" options="-parameters" />
+      <module name="discovery-server" options="-parameters" />
       <module name="movie-catalog-service" options="-parameters" />
       <module name="movie-info-service" options="-parameters" />
       <module name="movie-rating-service" options="-parameters" />
